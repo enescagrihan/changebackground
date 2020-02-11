@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: violet;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 10px 15px;
+    font-size: 15px;
+    background-color: transparent;
+    color: #918890;
+    border: 1px solid #918890;
+    border-radius: 5px;
+}   
+
+button:hover {
+    color: white;
+    background-color: #918890;
+    transition: 0.4s;
+}
